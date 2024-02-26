@@ -1,4 +1,12 @@
 // You can change global variables here:
+function playMusic(){
+
+  var music = new Audio('./music.mp3');
+    
+
+  music.play();
+
+}
 var radius = 240; // how big of the radius
 var autoRotate = true; // auto rotate or not
 var rotateSpeed = -60; // unit: seconds/360 degrees
