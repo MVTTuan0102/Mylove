@@ -209,7 +209,7 @@ html {
 .button:hover
 {
     color: #FF0028;
-    box-shadow: 0 0 10px #298ff3, 0 0 40px #298ff3, 0 0 80px #298ff3;
+    box-shadow: 0 0 10px #298ff3, 0 0 40px #298ff3, 0 0 80px #298ff3, 0 0 160px #298ff3;
 }
 .button:hover span:nth-child(1)
 {
@@ -308,6 +308,12 @@ animation: animate3 2s linear infinite;
    transform:translateX(-100%);
  
  }
+}
+.button:hover span:nth-child(4)
+{
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
 }
 .button span:nth-child(4)
 {
