@@ -211,12 +211,7 @@ html {
     color: #FF0028;
     box-shadow: 0 0 10px #298ff3, 0 0 40px #298ff3, 0 0 80px #298ff3, 0 0 160px #298ff3;
 }
-.button:hover span:nth-child(1)
-{
-    right: 100%;
-    transition: 1s;
-    transition-delay: 0.5s;
-}
+
 .button::before
 {
 content: '';
@@ -250,12 +245,7 @@ animation: animate1 2s linear infinite;
  
  }
 }
-.button:hover span:nth-child(2)
-{
-    right: 100%;
-    transition: 1s;
-    transition-delay: 0.5s;
-}
+
 .button span:nth-child(2)
 {
 position: absolute;
@@ -280,12 +270,7 @@ animation-delay: 1s;
  
  }
 }
-.button:hover span:nth-child(3)
-{
-    right: 100%;
-    transition: 1s;
-    transition-delay: 0.5s;
-}
+
 .button span:nth-child(3)
 {
 position: absolute;
