@@ -34,12 +34,16 @@
       <div id="music-container"></div>
       <div id="canva">
           
- <a href="#" class="button" value="click sound" onclick="playMusic() ">
-     <span></span>
+ 	<a href="#" class="button"  id="play" onclick="toggleAudio()" 	 >
+ 	    <audio id='player' <source src="./music.mp3" type="audio/ogg"></audio>
+<a href="#" class="button"  id="pause" onclick="toggleAudio()" >
+    
+    
       <span></span>
       <span></span>
       <span></span>
-       Start Music
+      <span></span>
+      Start Music
       </a>
           
       <canvas id="canvas"></canvas>
