@@ -1,12 +1,17 @@
 // You can change global variables here:
-function playMusic(){
+function toggleAudio() {
+  var audioElement = document.getElementById('player')
+  var soundOn = document.getElementById('play')
+  var soundOff = document.getElementById('pause')
+  if (audioElement.paused) {
+    audioElement.play();
+   
+    ;
+  } else {
+    audioElement.pause();
 
-  var music = new Audio('./music.mp3');
-    
-
-  music.play();
-
-}
+  }
+} 
 var radius = 240; // how big of the radius
 var autoRotate = true; // auto rotate or not
 var rotateSpeed = -60; // unit: seconds/360 degrees
